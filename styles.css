@@ -7,8 +7,8 @@ body {
 }
 
 nav {
-    background-color: #4CAF50;
-    padding: 10px;
+    background-color: #0499fd;
+    padding: 22px;
 }
 
 nav ul {
@@ -34,7 +34,7 @@ nav a:hover {
 }
 
 h1 {
-    color: #4CAF50;
+    color: #0499fd;
     text-align: center;
     margin-top: 20px;
 }
@@ -63,6 +63,16 @@ label {
     font-weight: bold;
 }
 
+.radio-label {
+    display: inline;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+input[type="radio"] {
+    margin-right: 50px;
+}
+
 input, textarea, select {
     width: 100%;
     padding: 8px;
@@ -73,7 +83,7 @@ input, textarea, select {
 
 input[type="submit"] {
     background-color: #4CAF50;
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -94,4 +104,13 @@ img {
 iframe {
     display: block;
     margin: 20px auto;
+}
+
+.content-box {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
