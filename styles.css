@@ -40,7 +40,7 @@ nav a {
 nav a:hover {
     color: #ffffff;
     text-decoration: none;
-    box-shadow: 0 0 18px rgba(126, 186, 255, 0.75);
+    box-shadow: 0 0 1\8px rgba(82, 124, 172, 0.75);
     transform: translateY(-2px);
     background: rgba(94, 132, 182, 0.2);
 }
@@ -112,7 +112,8 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #5ca2e0;
+    background-color: #5ce09e;
+    color: #000000; 
 }
 
 img {
