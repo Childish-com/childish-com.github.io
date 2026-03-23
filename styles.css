@@ -53,8 +53,8 @@ form {
     margin: 20px auto;
     padding: 20px;
     background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    box-shadow: 0 0 16px rgb(0, 26, 255);
 }
 
 label {
@@ -111,6 +111,6 @@ iframe {
     margin: 20px auto;
     padding: 20px;
     background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    box-shadow: 0 0 16px rgb(0, 26, 255);
 }
