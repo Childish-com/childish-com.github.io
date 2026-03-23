@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact and Survey - Trey's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games&music.html">Music & Games</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="vacation.html">Dream Vacation</a></li>
+        </ul>
+    </nav>
+    <h1>Contact Me</h1>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <input type="submit" value="Send">
+    </form>
+    <h1>Survey</h1>
+    <form action="#" method="post">
+        <p>What is your favorite color?</p>
+        <input type="radio" id="red" name="color" value="red">
+        <label for="red">Red</label><br>
+        <input type="radio" id="blue" name="color" value="blue">
+        <label for="blue">Blue</label><br>
+        <input type="radio" id="green" name="color" value="green">
+        <label for="green">Green</label><br><br>
+        <p>How did you hear about my portfolio?</p>
+        <select name="source">
+            <option value="friend">Friend</option>
+            <option value="social">Social Media</option>
+            <option value="search">Search Engine</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        <input type="submit" value="Submit Survey">
+    </form>
+</body>
+</html>
