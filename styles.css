@@ -1,14 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    color: #333;
+    background-color: #0c0f14;
+    color: #e5e9f0;
     margin: 0;
     padding: 0;
 }
 
 nav {
-    background-color: #0499fd;
+    background-color: #152233;
     padding: 22px;
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.65), inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+    margin: 10px auto;
+    max-width: 940px;
+    position: relative;
 }
 
 nav ul {
@@ -20,27 +25,34 @@ nav ul {
 }
 
 nav li {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav a {
-    color: white;
+    color: #a9c9ff;
     text-decoration: none;
     font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #ffffff;
+    text-decoration: none;
+    box-shadow: 0 0 18px rgba(126, 186, 255, 0.75);
+    transform: translateY(-2px);
+    background: rgba(94, 132, 182, 0.2);
 }
 
 h1 {
-    color: #0499fd;
+    color: #7fb4ff;
     text-align: center;
     margin-top: 20px;
 }
 
 h2 {
-    color: #555;
+    color: #b0c9e4;
 }
 
 ul {
@@ -52,21 +64,23 @@ form {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(220, 228, 255, 0.384);
+    background-color: rgba(26, 40, 60, 0.82);
     border-radius: 20px;
-    box-shadow: 0 0 16px rgb(0, 26, 255);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.55);
 }
 
 label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    color: #d7e3ff;
 }
 
 .radio-label {
     display: inline;
     margin-bottom: 0;
     font-weight: normal;
+    color: #d7e3ff;
 }
 
 input[type="radio"] {
@@ -77,46 +91,70 @@ input, textarea, select {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #455a76;
     border-radius: 4px;
+    background-color: #1a2435;
+    color: #e9efff;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #8fa2bf;
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
-    color: rgb(255, 255, 255);
+    background-color: #3e8dc9;
+    color: #ffffff;
     border: none;
     padding: 10px;
     cursor: pointer;
     font-size: 16px;
+    border-radius: 6px;
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #5ca2e0;
 }
 
 img {
     display: block;
-    margin: 20px auto;
+    margin: 50px auto;
     max-width: 100%;
     height: auto;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 iframe {
     display: block;
     margin: 20px auto;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.content-box ul li {
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.content-box ul li img {
+    display: block;
+    margin: 10px auto 0;
+    width: min(280px, 100%);
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
 }
 
 .content-box {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(220, 228, 255, 0.384);
+    background-color: rgba(26, 40, 60, 0.82);
     border-radius: 20px;
-    box-shadow: 0 0 16px rgb(0, 26, 255);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.55);
 }
 .framed {
-    border: 3px solid #0077ff;
+    border: 3px solid #4a7cae;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.274);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
     margin: 10px 0;
 }
