@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     color: #333;
     margin: 0;
     padding: 0;
@@ -52,7 +52,7 @@ form {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: white;
+    background-color: rgba(220, 228, 255, 0.384);
     border-radius: 20px;
     box-shadow: 0 0 16px rgb(0, 26, 255);
 }
@@ -110,7 +110,13 @@ iframe {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: white;
+    background-color: rgba(220, 228, 255, 0.384);
     border-radius: 20px;
     box-shadow: 0 0 16px rgb(0, 26, 255);
+}
+.framed {
+    border: 3px solid #0077ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.274);
+    margin: 10px 0;
 }
